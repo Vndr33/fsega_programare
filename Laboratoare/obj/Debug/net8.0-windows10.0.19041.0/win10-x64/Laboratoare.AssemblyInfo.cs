@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Laboratoare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+67ce4cc4bc955526d590079653c6f5815c780f25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Laboratoare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Laboratoare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
