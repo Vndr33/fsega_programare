@@ -65,3 +65,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Laboratoare.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Iulia/source/repos/fsega/medii_de_programare/Laboratoare/Laboratoare/ShopEntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Laboratoare.ShopEntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ShopEntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ShopEntryPage.xaml
+
+[C:/Users/Iulia/source/repos/fsega/medii_de_programare/Laboratoare/Laboratoare/ShopPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Laboratoare.ShopPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ShopPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ShopPage.xaml
