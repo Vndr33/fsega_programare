@@ -16,6 +16,12 @@ build_property.ProjectDir = C:\Users\Iulia\source\repos\fsega\medii_de_programar
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/Iulia/source/repos/fsega/medii_de_programare/Laboratoare/Laboratoare/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Laboratoare.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
 [C:/Users/Iulia/source/repos/fsega/medii_de_programare/Laboratoare/Laboratoare/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Laboratoare.App.xaml
