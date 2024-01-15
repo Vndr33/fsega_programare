@@ -2,23 +2,65 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Laboratoare.ListPage"
-             Title="ListPage">
+             Title="ListPage"
+             BackgroundColor="#F3ECE9">
+
+    <ContentPage.Content xmlns:local ="clr-namespace:Laboratoare">
+        <StackLayout Margin="20">
+            <Editor Placeholder="Enter the description of the shopping list"
+                     Text="{Binding Description}"
+                     HeightRequest="50"
+                    TextColor="#331C14"
+                    BackgroundColor="#BFAC97">
+                <Editor.Behaviors>
+                    <local:ValidationBehaviour/>
+                </Editor.Behaviors>
+            </Editor>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Save"
+                        Margin="10"
+                        Clicked="OnSaveButtonClicked" 
+                        BackgroundColor="#905039"
+                        TextColor="#F3ECE9"/>
+                <Button Grid.Column="1"
+                  Text="Delete"
+                        Margin="10"
+                        Clicked="OnDeleteButtonClicked"
+                        BackgroundColor="#905039"
+                        TextColor="#F3ECE9"/>
+            </Grid>
+
+            <ListView x:Name="listView"
+                 Margin="20">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Detail="{Binding Description}" 
+                                  TextColor="#331C14"
+                                  DetailColor="#331C14"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
 
-    <StackLayout Margin="20">
-        <Editor Placeholder="Enter the description of the shopping list"
-                Text="{Binding Description}"
-                HeightRequest="100" />
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Button Text="Save"
-                    Clicked="OnSaveButtonClicked" />
-            <Button Grid.Column="1"
-                     Text="Delete"
-                     Clicked="OnDeleteButtonClicked"/>
-        </Grid>
-    </StackLayout>
+            <Button Text="Add/Choose Item to buy" 
+                    MaximumWidthRequest="300"
+                    Clicked="OnChooseButtonClicked"
+                    Margin="5"
+                    BackgroundColor="#A87E68"/>
+            <Button Text="Remove Item from List"
+                    MaximumWidthRequest="300"
+                    Clicked="OnRemoveButtonClicked"
+                    Margin="5"
+                    BackgroundColor="#A87E68"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+   
 </ContentPage>
